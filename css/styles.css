@@ -31,6 +31,7 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 17px 0;
     
 }
 
@@ -403,15 +404,13 @@ img {
 
 .navigation {
 
-    display: flex;
+display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 .nav-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+display: none;
     
 }
 .menu-item {
@@ -431,6 +430,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
     margin-left: auto;
+    display: none;
 
 }
 
