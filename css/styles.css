@@ -406,14 +406,15 @@ img {
 }
 .container-header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .navigation {
 
 display: flex;
-    justify-content: space-between;
-    align-items: center;
+ align-items: center;
 
 }
 .nav-list {
