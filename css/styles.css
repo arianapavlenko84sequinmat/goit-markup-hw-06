@@ -322,6 +322,9 @@ img {
 
 
 @media screen and (min-width:768px) {
+    .container {
+max-width: 768px;
+}
 .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -342,6 +345,10 @@ img {
 }
 
 @media screen and (min-width:1158px) {
+   .container {
+    max-width: 1158px;
+}
+
 .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -375,6 +382,7 @@ img {
         url(../images/background-image-mob-2x.jpg);
 }
 }
+
  .main-title {
 
      color: white;
