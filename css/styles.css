@@ -305,12 +305,12 @@ img {
         }
 }
 
-.effective_solutions {
+.hero {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/background.jpg);
+        url(../images/background-image-mob-1x.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -319,6 +319,62 @@ img {
 
 }
 
+
+
+@media screen and (min-width:768px) {
+.hero {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/background-image-tab-1x.jpg);
+    }
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+    .hero {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/background-image-tab-2x.jpg);
+    }
+}
+}
+
+@media screen and (min-width:1158px) {
+.hero {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/background-image-desk-1x.jpg);
+    }
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+    .hero {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/background-image-desk-2x.jpg);
+    }
+}
+
+}
+
+
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+.hero {
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/background-image-mob-2x.jpg);
+}
+}
  .main-title {
 
      color: white;
@@ -326,9 +382,9 @@ img {
      font-weight: 700;
      line-height: 1.07;
      letter-spacing: 1.12px;
-    
+    max-width: 216px;
      text-align: center;
-     max-width: 496px;
+     /*max-width: 496px;*/
      margin: 0 auto;
   
     
