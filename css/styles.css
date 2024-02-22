@@ -364,7 +364,11 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+.order-service-btn:hover,
+:focus {
+    background-color: #404BBF;
 
+}
 @media screen and (min-width:768px) {
   
 .hero {
@@ -480,24 +484,95 @@ img {
  }
 }
 
-
-
 .section-features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
+    padding-top: 96px;
+    padding-bottom: 96px;
+   
 }
 
 .prerogatives-list {
     display: flex;
-        gap: 24px;
-    
-        width: calc ((100% - 72px) / 4);
-        
-    
+    flex-direction: column;
+    justify-content: center;
+        gap: 72px;
+        align-items: center;
+        /*width: calc ((100% - 72px) / 4); */     
+}
+/*.prerogatives-list-item {
+    width: calc((100% - 72px) / 4);
+}*/
+.icon-list-prerogatives {
+display: none;
 }
 
+/*.icon-list-prerogatives {
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+}*/
+.prerogatives-list-item {
+    max-width: 288px;
+    height: 120px;
 
+}
+.prerogatives-list-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+
+.prerogatives-list-text {
+    color: #434455;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+}
+@media screen and (min-width:768px) {
+
+
+.prerogatives-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.40px;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+
+
+}
+
+.prerogatives-list-text {
+    color: #434455;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+
+}
+@media screen and (min-width:1158px) {
 .prerogatives-list-title {
     color: #2E2F42;
         font-size: 20px;
@@ -507,6 +582,7 @@ img {
         letter-spacing: 0.40px;
         word-wrap: break-word;
         margin-bottom: 8px;
+
        
 }
 
@@ -517,55 +593,40 @@ img {
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-        word-wrap: break-word
+        word-wrap: break-word;
 }
 
-.section-title {
-    color: #2E2F42;
-        font-size: 36px;
-        font-family: Roboto;
-        font-weight: 700;
-        text-transform: capitalize;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        word-wrap: break-word;
-        background-color: #F4F4FD;
-        text-align: center;
-        min-width: 162px;
-        height: 40px;
-        margin: 0 auto;
-        margin-bottom: 72px;
 }
-.container-prerogatives {
+
+/*.container-prerogatives {
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
 
 
 }
-.order-service-btn:hover,
-:focus {
-    background-color: #404BBF;
+*/
 
-}
-.prerogatives-list-item {
-    width: calc((100% - 72px) / 4);
-}
 
-.icon-list-prerogatives {
-    background-color: #F4F4FD;
-    width: 264px;
-    height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border: 1px solid #8E8F99;
-}
-.icon-link-prerogatives {
+/*.icon-link-prerogatives {
     background-color: #8e8f99;
     border-radius: 4px;
+}*/
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    background-color: #F4F4FD;
+    text-align: center;
+    min-width: 162px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 .team {
     background-color: #F4F4FD;
