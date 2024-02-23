@@ -505,17 +505,7 @@ img {
 display: none;
 }
 
-/*.icon-list-prerogatives {
-    background-color: #F4F4FD;
-    width: 264px;
-    height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border: 1px solid #8E8F99;
-}*/
+
 .prerogatives-list-item {
     max-width: 288px;
     height: 120px;
@@ -549,20 +539,15 @@ display: none;
 .section-features {
         padding-top: 96px;
         padding-bottom: 96px;
-
     }
 .prerogatives-list {
-    display: flex;
-    flex-direction: row;
-    column-gap: 72px;
-   row-gap: 24px;
-   flex-wrap: wrap;
-width: calc ((100% - 72px) / 2);
-}
 
-/*.prerogatives-list-item {
-width: calc ((100% - 72px) / 2);
-}*/
+    flex-direction: row;
+    column-gap: 24px;
+   row-gap: 72px;
+   flex-wrap: wrap;
+/*width: calc ((100% - 72px) / 2);*/
+}
 .prerogatives-list-title {
     color: #2E2F42;
     font-size: 36px;
@@ -576,7 +561,6 @@ width: calc ((100% - 72px) / 2);
 text-align: left;
 
 }
-
 .prerogatives-list-text {
     color: #434455;
     font-size: 16px;
@@ -586,9 +570,37 @@ text-align: left;
     letter-spacing: 0.02em;
     word-wrap: break-word;
 }
-
+.prerogatives-list-item {
+    max-width: 356px;
+    height: 72px;
+}
 }
 @media screen and (min-width:1158px) {
+    .prerogatives-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    
+        .icon-link-prerogatives {
+        background-color: #8e8f99;
+        border-radius: 4px;
+    }
+.prerogatives-list-item {
+width: calc ((100% - 72px) / 2);
+}
+    .icon-list-prerogatives {
+        background-color: #F4F4FD;
+        width: 264px;
+        height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border: 1px solid #8E8F99;
+    }
 .prerogatives-list-title {
     color: #2E2F42;
         font-size: 20px;
@@ -598,8 +610,6 @@ text-align: left;
         letter-spacing: 0.40px;
         word-wrap: break-word;
         margin-bottom: 8px;
-
-       
 }
 
 .prerogatives-list-text {
@@ -614,20 +624,6 @@ text-align: left;
 
 }
 
-/*.container-prerogatives {
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-
-
-}
-*/
-
-
-/*.icon-link-prerogatives {
-    background-color: #8e8f99;
-    border-radius: 4px;
-}*/
 .section-title {
     color: #2E2F42;
     font-size: 36px;
