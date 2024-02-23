@@ -1022,14 +1022,10 @@ font-size: 16px;
 
 @media screen and (min-width:768px) {
 .footer {
-        /*background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;*/
         background-color: #2e2f42;
         max-width: 768px;
         height: 456px;
         margin: 0 auto;
-
     }
         .container-footer {
             display: flex;
@@ -1039,22 +1035,16 @@ font-size: 16px;
             align-items: flex-start;
             align-content: flex-start;
             column-gap: 24px;
-        
             padding-left: 108px;
-        
-    
-    
         }
-                 .social-media {
-                     display: flex;
-                     flex-direction: column;
-                     align-items: flex-start;
-                     justify-content: center;
-                     max-width: 208px;
-                     padding-top: 96px;
-                    
-                 }
-
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 208px;
+     padding-top: 96px;
+     }
          .logo-webstudio {
       /* margin-right: 120px;*/
         display: flex;
@@ -1065,12 +1055,9 @@ font-size: 16px;
         max-width: 264px;
        
           }
-                   .footer-subscribe {
-                       /*margin-left: 80px;*/
-                       display: flex;
-                       align-items: flex-start;
-                     
-                     
+    .footer-subscribe {
+     display: flex;
+    align-items: flex-start;                 
 }
  .footer-form-email {
      display: flex;
@@ -1079,12 +1066,44 @@ font-size: 16px;
      flex-direction: row;
      max-width: 288px;
      column-gap: 24px;
-
  }
  }
 
 @media screen and (min-width:1158px) {
+    .footer {
+        max-width: 1158px;
+        height: 312px;
+        background-color: #2e2f42;
+   
+    
+        }
+                .container-footer {
+                    display: flex;
+                    align-items: baseline;
+                    max-width: 1158px;
+                    padding: 0 15px;
+                    gap: 0;
+                }
+                                .social-media {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    justify-content: center;
+                                    max-width: 208px;
+                            
+                                }
+.footer-subscribe {
+margin-left: 80px;
+}
+.footer-form-email {
+display: flex;
+gap: 24px;
 
+}
+
+.logo-webstudio {
+    margin-right: 120px;
+}
 
 }
 
