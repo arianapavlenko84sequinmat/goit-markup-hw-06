@@ -578,7 +578,6 @@ text-align: left;
 
 .section-features {
 max-width: 1128px;
-height: 224px;
         padding-top: 120px;
         padding-bottom: 120px;
         margin: 0 auto;
@@ -592,7 +591,7 @@ height: 224px;
     }
 .prerogatives-list-item {
     max-width: 264px;
-    height: 112px;
+    height: 224px;
     width: calc ((100% - 72px) / 4);
 }
  .icon-list-prerogatives {
