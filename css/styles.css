@@ -152,7 +152,7 @@ img {
     pointer-events: auto;
 }
 
-.close-mob-icon {
+.mob-menu-close {
     display: block;
         border: none;
         background-color: transparent;
