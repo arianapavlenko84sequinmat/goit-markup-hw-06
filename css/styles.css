@@ -1471,8 +1471,8 @@ display: block;
     background: #4d5ae5;
 
 }
-}
 
+}
 @media screen and (min-width:1158px) {
     .modal {
             width: 408px;
@@ -1480,6 +1480,18 @@ display: block;
             padding: 72px 24px 24px 24px;
     
         }
+        .modal-input:focus+.modal-icon {
+            fill: #4D5AE5;
+    
+        }
+.modal-input:focus {
+  border-color: #4D5AE5;
+  }
+                    
+                    
+.modal-textarea:focus {
+ border-color: #4D5AE5;
+   }
                 .label-checkbox {
                     color: #8E8F99;
                     font-size: 12px;
@@ -1489,23 +1501,15 @@ display: block;
                     display: block;
                    
                 }
-             .modal-input:focus+.modal-icon {
-              fill: #4D5AE5;
-                                 }
+            
+                                
      .button-send {
     min-width: 169px;
      height: 56px;
     background: #4d5ae5;
     position: absolute;
 }
-.modal-input:focus {
-        border-color: #4D5AE5;
-    }
 
-  
-.modal-textarea:focus {
-    border-color: #4D5AE5;
-}
      
 }
 
