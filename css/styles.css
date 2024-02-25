@@ -155,12 +155,20 @@ img {
 .mob-menu-close {
     display: block;
         border: none;
+        width: 24px;
+        height: 24px;
         background-color: transparent;
         margin-left: auto;
         margin-bottom: 24px;
         padding: 0;
+        border-radius: 50%;
+            fill: #e7e9fc;
+            stroke-width: 1px;
+        stroke: #2e2f42;
+           /* stroke: rgba(0, 0, 0, 0.1);*/
+
 }
-         .current {
+        .current {
              position: relative;
              color: #404bbf;
          }
@@ -178,6 +186,7 @@ img {
          }
 .close-mob-icon {
     background-color: transparent;
+    fill: #2e2f42;
 }
 .nav-mob-list {
     display: flex;
