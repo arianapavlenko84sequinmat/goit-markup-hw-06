@@ -153,7 +153,12 @@ img {
 }
 
 .mob-menu-close {
-    display: block;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
         border: none;
         width: 24px;
         height: 24px;
@@ -190,6 +195,7 @@ img {
     fill: #2e2f42;
 }
 .nav-mob-list {
+    padding-top: 48px;
     display: flex;
         gap: 40px;
         margin-bottom: 20px;
