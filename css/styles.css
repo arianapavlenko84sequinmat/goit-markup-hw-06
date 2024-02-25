@@ -812,7 +812,9 @@ max-width: 320px;
         text-align: center;
         margin-bottom: 72px;
 }
-
+.portfolio-list-item:not(:last-child) {
+margin-bottom: 48px;
+}
 .portfolio-list-item {
     margin: 0 auto;
     /*width: calc((100% - 48px) / 3);*/
@@ -827,26 +829,18 @@ max-width: 320px;
 .wrap {
     position: relative;
     overflow: hidden;
+    width: 288px;
+    
 }
+           .cover-text {
+               display: none;
+    
+           }
 .portfolio-list-item:hover .cover-text {
     transform: translateY(0%);
 }
 
-.cover-text {
-font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-  position: absolute;
-        top: 0;
-        background-color: #4d5ae5;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        padding: 40px 32px;
-        transform: translateY(100%);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);   
-}
+
 .img-name-list {
 
     padding: 32px 16px;
@@ -886,7 +880,16 @@ max-width: 768px;
             column-gap: 24px;
     
         }
+        .wrap {
+width: 356px;
+
+        }
+        .cover-text {
+display: none;
+
 } 
+
+ }
 
 @media screen and (min-width:1158px) {
 .portfolio {
@@ -909,6 +912,28 @@ max-width: 1158px;
             flex-wrap: wrap;
             gap: 48px 24px;
         }
+  .wrap {
+position: relative;
+ overflow: hidden;
+width: 360px;
+}
+
+                .cover-text {
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #f4f4fd;
+                    position: absolute;
+                    display: none;
+                    top: 0;
+                    background-color: #4d5ae5;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    padding: 40px 32px;
+                    transform: translateY(100%);
+                    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
         .portfolio-list-item {
          width: calc((100% - 48px) / 3)
 }
