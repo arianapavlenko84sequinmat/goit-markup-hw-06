@@ -160,6 +160,22 @@ img {
         margin-bottom: 24px;
         padding: 0;
 }
+         .current {
+             position: relative;
+             color: #404bbf;
+         }
+    
+         .current::after {
+             content: "";
+             position: absolute;
+             border-radius: 2px;
+             background-color: #404bbf;
+             height: 4px;
+             width: 100%;
+             left: 0;
+             /*bottom: -1px;*/
+    
+         }
 .close-mob-icon {
     background-color: transparent;
 }
@@ -179,7 +195,7 @@ img {
         text-transform: capitalize;
         text-decoration: none;
 }
- 
+
 .mob-item {
     color: #404BBF;
 }
