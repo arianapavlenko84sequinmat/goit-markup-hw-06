@@ -123,6 +123,8 @@ img {
     display: none;
 
 }
+@media  screen and (min-width: 320px)  {
+    
 
 .mobile_menu {
     position: fixed;
@@ -143,6 +145,11 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+}
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .mob-menu-close {
@@ -191,6 +198,9 @@ img {
 .second {
     color: #434455;
 }
+.mob-contacts-item {
+margin-bottom: 24px;
+}
 .mobile_contacts_item:not(:last-child) {
     margin-bottom: 24px;
 }
@@ -213,10 +223,8 @@ width: 40px;
 .mob-media-icon {
 fill: #F4F4FD;
 }
-@media screen and (min-width:320px) {
-
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
 
