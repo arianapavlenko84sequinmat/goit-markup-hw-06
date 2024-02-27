@@ -269,7 +269,8 @@ fill: #F4F4FD;
     .nav-list {
         display: flex;
         gap: 40px;
-
+    padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .address {
@@ -359,14 +360,17 @@ fill: #F4F4FD;
     .container {
         max-width: 1158px;
         padding: 0 15px;
+      
     }
     .logo {
         margin-right: 76px;
 
     }
+    
 .nav-list {
     display: flex;
     gap: 40px;
+    padding: 0;
 
 }
     .menu-link {
@@ -566,7 +570,7 @@ fill: #F4F4FD;
 @media screen and (min-width:1158px) {
 
 .hero {
-        max-width: 1158px;
+        max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
         background-image: linear-gradient(to bottom,
@@ -769,7 +773,7 @@ max-width: 1128px;
 }
 
 .team {
-    max-width: 320px;
+  
     background-color: #F4F4FD;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -802,7 +806,7 @@ max-width: 1128px;
 }
 
 .image-title {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -877,7 +881,7 @@ max-width: 1128px;
 }
 @media screen and (min-width:768px) {
     .team {
-max-width: 768px;
+
             background-color: #F4F4FD;
             padding-top: 96px;
             padding-bottom: 96px;
@@ -1028,12 +1032,10 @@ display: none;
 
 @media screen and (min-width:1158px) {
 .portfolio {
-max-width: 1158px;
+
         padding-bottom: 120px;
         padding-top: 120px;
-        border: 1px solid #e7e9fc;
-        margin: 0 auto;
-
+       
     }
     .container-portfolio {
        
@@ -1187,7 +1189,7 @@ width: 360px;
      display: flex;
      flex-direction: column;
      align-items: center;
-     max-width: 288px;
+    
  }
 .footer-title-subscribe {
     font-weight: 500;
@@ -1202,7 +1204,7 @@ width: 360px;
       gap: 16px;
       align-items: center;
       flex-direction: column;
-      max-width: 288px;
+     
 
   }
   .footer-input {
@@ -1266,7 +1268,7 @@ width: 360px;
         background-color: #2e2f42;
         padding-top: 96px;
         padding-bottom: 96px;
-        max-width: 768px;
+        
         margin: 0 auto;
     }
         .section-footer {
@@ -1313,7 +1315,7 @@ width: 360px;
 
 @media screen and (min-width:1158px) {
     .footer {
-        max-width: 1158px;
+       
     padding-top: 100px;
     padding-bottom: 100px;
         background-color: #2e2f42;
